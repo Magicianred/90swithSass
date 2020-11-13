@@ -1,0 +1,17 @@
+.main {
+  // height: 75px;
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
+
+  &-textcontainer {
+    h1 {
+      font-size: 40px;
+      line-height: 1.5;
+    }
+
+    p {
+      margin: 20;
+    }
+  }
+}

@@ -1,0 +1,59 @@
+.main-textcontainer h1 {
+  font-size: 40px;
+  line-height: 1.5;
+}
+.main-textcontainer p {
+  margin: 20;
+}
+
+img {
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #535252;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+header {
+  background-color: #55ec55;
+  color: white;
+  height: 470px;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header nav ul {
+  display: flex;
+  list-style-type: none;
+}
+header nav li {
+  padding: 10px;
+}
+header nav a:hover {
+  color: rgba(211, 147, 30, 0.404);
+}
+header a {
+  color: blue;
+}
+
+.container {
+  max-width: 1000px;
+  padding: 0 20px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+/*# sourceMappingURL=style.css.map */

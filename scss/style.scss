@@ -1,0 +1,55 @@
+@import "config";
+@import "mainbody";
+@import "images";
+@import "buttons";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: $light_dark;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+header {
+  background-color: $maincolor;
+  color: white;
+  height: 470px;
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    ul {
+      display: flex;
+      list-style-type: none;
+    }
+
+    li {
+      padding: 10px;
+    }
+
+    a:hover {
+      color: $secondarycolor;
+    }
+  }
+
+  a {
+    color: blue;
+  }
+}
+
+.container {
+  max-width: 1000px;
+  padding: 0 20px;
+  margin: 0 auto;
+  overflow: auto;
+}
