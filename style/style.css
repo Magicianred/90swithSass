@@ -10,6 +10,16 @@ img {
   width: 100%;
 }
 
+.clickm3, .warning, .ad {
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #dd4a4a;
+}
+
+.ad {
+  background-color: #e98a8a;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -54,6 +64,13 @@ header a {
   padding: 0 20px;
   margin: 0 auto;
   overflow: auto;
+}
+
+.buttons-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

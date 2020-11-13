@@ -53,3 +53,10 @@ header {
   margin: 0 auto;
   overflow: auto;
 }
+
+.buttons-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+}
