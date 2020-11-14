@@ -1,0 +1,9 @@
+//padding and margin paragraph
+$space: (1, 2, 3, 4);
+
+// Creation of multiple classes
+@each $setspace in $space {
+  .paragraph-#{$setspace} {
+    margin: #{$setspace}rem;
+  }
+}

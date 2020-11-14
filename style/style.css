@@ -1,9 +1,9 @@
+.main-textcontainer {
+  margin-bottom: 50px;
+}
 .main-textcontainer h1 {
   font-size: 40px;
   line-height: 1.5;
-}
-.main-textcontainer p {
-  margin: 20;
 }
 
 img {
@@ -13,11 +13,27 @@ img {
 .clickm3, .warning, .ad {
   display: inline-block;
   border-radius: 5px;
-  background-color: #dd4a4a;
+  background-color: #640000;
 }
 
 .ad {
-  background-color: #e98a8a;
+  background-color: #b10000;
+}
+
+.paragraph-1 {
+  margin: 1rem;
+}
+
+.paragraph-2 {
+  margin: 2rem;
+}
+
+.paragraph-3 {
+  margin: 3rem;
+}
+
+.paragraph-4 {
+  margin: 4rem;
 }
 
 * {
@@ -36,8 +52,8 @@ body {
 }
 
 header {
-  background-color: #55ec55;
-  color: white;
+  background-color: #994f4f;
+  color: #e72121;
   height: 470px;
 }
 header nav {
@@ -70,7 +86,7 @@ header a {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin-top: 20px;
+  margin-top: 200px;
 }
 
 /*# sourceMappingURL=style.css.map */
